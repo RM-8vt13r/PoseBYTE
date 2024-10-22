@@ -23,11 +23,13 @@ This adds the following files into ByteTrack/yolox/tracker:
 - kalman_filter_pose.py: a pose-based version of kalman_filter.py.
 - matching.py: overrides the original matching.py to include a calculation of Object Keypoint Similarity (OKS).
 
-As an example to use PoseBYTE, we take ByteTrack/tools/demo_track.py as a base.
+As an example to use PoseBYTE, take ByteTrack/tools/demo_track.py as a base.
 First, import BYTETracker from yolox.tracker.byte_tracker_pose instead of yolox.tracker.byte_tracker.
 Instead of running bounding box detection, run a pose detector like [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) or [OpenPifPaf](https://github.com/openpifpaf/openpifpaf).
 Pass a keypoint falloff array to the BYTETracker constructor before the framerate, like those defined by [COCO](https://cocodataset.org/#keypoints-eval).
-To the ByteTracker
+Pass a list or tuple of pose detections to the BYTETrackers's `update()` method, instead of a list of bounding boxes.
+Each pose detection is a `dict` with a `'keypoints'` key, which stores a list of keypoints in COCO format (`x1, y1, score1, x2, y2, score2, ...`).
+The number of keypoints should be the same for each pose, and match the number of falloff values passed to BYTETracker's constructor.
 
 # Citation
 Please cite the following if PoseBYTE aids your work:
