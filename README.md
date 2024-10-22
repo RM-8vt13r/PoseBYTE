@@ -16,7 +16,7 @@ The fast and consistent short-term performance of the provided algorithm makes i
 
 # Usage
 The PoseBYTE code is an adaptation of BYTE.
-First, clone (https://github.com/ifzhang/ByteTrack/tree/main).
+First, clone (https://github.com/ifzhang/ByteTrack/tree/main) and follow its installation instructions.
 Then, copy the PoseBYTE repository into its root.
 This adds the following files into ByteTrack/yolox/tracker:
 - byte_tracker_pose.py: a pose-based version of byte_tracker.py.
