@@ -32,7 +32,7 @@ Each pose detection is a `dict` with a `'keypoints'` key, which stores a list of
 The number of keypoints should be the same for each pose, and match the number of falloff values passed to BYTETracker's constructor.
 
 # Citation
-Please cite the following if PoseBYTE aids your work:
+Please cite the following if PoseBYTE helps in your work:
 ```tex
 @article{Butler:PoseBYTE,
     author={Butler, Rick M. and Vijfvinkel, Teddy S. and Frassini, Emanuele and van Riel, Sjors and Bachvarov, Chavdar and Constandse, Jan and van der Elst, Maarten and van den Dobbelsteen, John J. and Hendriks, Benno H. W.},
