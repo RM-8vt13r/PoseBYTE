@@ -34,17 +34,17 @@ The number of keypoints should be the same for each pose, and match the number o
 # Citation
 Please cite the following if PoseBYTE helps in your work:
 ```tex
-@article{Butler:PoseBYTE,
+@article{Butler:Jan25:PoseBYTE,
     author={Butler, Rick M. and Vijfvinkel, Teddy S. and Frassini, Emanuele and van Riel, Sjors and Bachvarov, Chavdar and Constandse, Jan and van der Elst, Maarten and van den Dobbelsteen, John J. and Hendriks, Benno H. W.},
     title={{2D} Human Pose Tracking in the Cardiac Catheterisation Laboratory with {BYTE}},
-    journal={},
-    year={Submitted},
-    month={},
-    volume={},
+    journal={Medical Engineering \& Physics},
+    year={2025},
+    month={01},
+    volume={135},
     number={},
-    pages={},
-    publisher={},
-    doi={}
+    pages={104270},
+    publisher={Elsevier},
+    doi={https://doi.org/10.1016/j.medengphy.2024.104270}
 }
 
 @inproceedings{Zhang:Oct22:ByteTrack,
